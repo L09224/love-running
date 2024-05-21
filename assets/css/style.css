@@ -73,23 +73,6 @@ main {
     position: relative;
 }
 
-#circle-cover-bg {
-    background: url("../images/reasons-image.webp") no repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    position: relative;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-
-}
-
-#benefits-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent*/
@@ -120,6 +103,23 @@ main {
 }
 
 #benefits {}
+
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #benefits-physical , #benefits-mental {
     display: flex;
@@ -152,7 +152,7 @@ main {
     margin: 5px 0;
 }
 
-p {
+#benefits > p {
     padding: 20px;
 }
 
